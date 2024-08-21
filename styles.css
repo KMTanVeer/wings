@@ -70,7 +70,8 @@ header {
 }
 
 .order-btn:hover {
-    background-color: #555;
+    background-color: #ff4507;
+    box-shadow: 0 0 40px rgba(255, 0, 119, 1);
 }
 
 /* Promo Section */
