@@ -45,8 +45,11 @@ header {
 }
 
 .header-buttons {
-    position: absolute;
-    right: 20px;
+    position: relative;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .btn {
@@ -56,6 +59,7 @@ header {
     border-radius: 5px;
     font-weight: bold;
     margin-left: 10px;
+    margin-top: 10px;
     transition: background-color 0.3s;
 }
 
